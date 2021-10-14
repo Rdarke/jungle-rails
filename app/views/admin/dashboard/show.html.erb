@@ -1,2 +1,13 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h2>Admin >> Dashboard</h2>
+<div class="panel panel-default products"> 
+    <dl class="dl-horizontal">
+      <br/>
+      <dt>Total products <span class="glyphicon glyphicon-signal"></span></dt> 
+      <dd> <%= link_to @product_count, [:admin, :products] %></dd>
+
+      <br/>
+      <dt>Total categories <span class="glyphicon glyphicon-signal"></span> </dt> 
+      <dd><%= link_to @category_count, [:admin, :products] %></dd>
+    </dl>
+  </div>
+
