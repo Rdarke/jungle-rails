@@ -8,7 +8,7 @@
 # light-weight as possible. Requiring heavyweight dependencies from this file
 # will add to the boot time of your test suite on EVERY test run, even for an
 # individual file that may not need all of that loaded. Instead, consider making
-# a separate helper file that requires the additional dependencies and performs
+# a separate helper file that requires the additonal dependencies and performs
 # the additional setup, and require it from the spec files that actually need
 # it.
 #
